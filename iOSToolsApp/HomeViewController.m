@@ -25,8 +25,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // 初始化
-    _dataSource = @[@{TITLE : @"计算两个经纬度间的距离", SUBTITLE : @"CalculateDistance", IDENTIFIER : @"CalculateView"},
-                    @{TITLE : @"设置图片的水印和阴影", SUBTITLE : @"", IDENTIFIER : @""},];
+    _dataSource = @[@{TITLE : @"计算两个经纬度间的距离", SUBTITLE : @"CalculateDistanceViewController", IDENTIFIER : @"CalculateDistanceView"},
+                    @{TITLE : @"设置图片的水印和阴影", SUBTITLE : @"ShowPrintImageViewController", IDENTIFIER : @"ShowPrintImageView"},
+                    @{TITLE : @"截图的一部分", SUBTITLE : @"CutImageViewController", IDENTIFIER : @"CutImageView"},];
 }
 
 
@@ -63,6 +64,7 @@
     
     UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:[dataDict objectForKey:IDENTIFIER]];
     
+    viewController.title = [dataDict objectForKey:TITLE];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

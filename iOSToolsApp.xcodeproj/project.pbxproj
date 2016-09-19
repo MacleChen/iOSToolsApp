@@ -17,6 +17,21 @@
 		39534D4C1D8F78AE00E1854B /* iOSToolsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D4B1D8F78AE00E1854B /* iOSToolsAppTests.m */; };
 		39534D571D8F78AE00E1854B /* iOSToolsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D561D8F78AE00E1854B /* iOSToolsAppUITests.m */; };
 		39534D6F1D8F827400E1854B /* appLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39534D6E1D8F827400E1854B /* appLogo.png */; };
+		39534D711D8F884800E1854B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39534D701D8F884800E1854B /* UIKit.framework */; };
+		39534D731D8F885100E1854B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39534D721D8F885100E1854B /* Foundation.framework */; };
+		39534D771D8F8ADD00E1854B /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D761D8F8ADD00E1854B /* UncaughtExceptionHandler.m */; };
+		39534D7B1D8F967300E1854B /* CalculateDistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D7A1D8F967300E1854B /* CalculateDistanceViewController.m */; };
+		39534D7F1D8FAF3E00E1854B /* ShowPrintImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D7E1D8FAF3E00E1854B /* ShowPrintImageViewController.m */; };
+		39534D811D8FB89700E1854B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39534D801D8FB89700E1854B /* AssetsLibrary.framework */; };
+		39534D851D8FBC0800E1854B /* XHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D841D8FBC0800E1854B /* XHToast.m */; };
+		39534D891D8FC46000E1854B /* SJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D881D8FC46000E1854B /* SJAvatarBrowser.m */; };
+		39534D8D1D8FC63000E1854B /* CutImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D8C1D8FC63000E1854B /* CutImageViewController.m */; };
+		39534D901D8FC6F200E1854B /* CropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D8F1D8FC6F200E1854B /* CropImageViewController.m */; };
+		39534D921D8FC73900E1854B /* bundle_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39534D911D8FC73900E1854B /* bundle_2.jpg */; };
+		39534D961D8FD1CB00E1854B /* SmallMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D951D8FD1CB00E1854B /* SmallMapView.m */; };
+		39534D991D8FD1F400E1854B /* SmallImageShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D981D8FD1F400E1854B /* SmallImageShowViewController.m */; };
+		39534D9E1D8FDD3A00E1854B /* VIPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534D9D1D8FDD3A00E1854B /* VIPhotoView.m */; };
+		39534DA11D8FDD8A00E1854B /* imageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39534DA01D8FDD8A00E1854B /* imageDetailViewController.m */; };
 		68B98409BB3A148877B0CC95 /* libPods-iOSToolsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90176C862F0DA6BC162899D /* libPods-iOSToolsApp.a */; };
 		9A4E927D95667CF9F1804D48 /* libPods-iOSToolsAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877921FAD37E599C0FA0E1D2 /* libPods-iOSToolsAppUITests.a */; };
 		FCC4F42FB2F18D9AD291FFEE /* libPods-iOSToolsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B9E689C46B93C07F51CC20 /* libPods-iOSToolsAppTests.a */; };
@@ -60,6 +75,33 @@
 		39534D561D8F78AE00E1854B /* iOSToolsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSToolsAppUITests.m; sourceTree = "<group>"; };
 		39534D581D8F78AE00E1854B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39534D6E1D8F827400E1854B /* appLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appLogo.png; sourceTree = "<group>"; };
+		39534D701D8F884800E1854B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39534D721D8F885100E1854B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39534D751D8F8ADD00E1854B /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		39534D761D8F8ADD00E1854B /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		39534D791D8F967300E1854B /* CalculateDistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateDistanceViewController.h; sourceTree = "<group>"; };
+		39534D7A1D8F967300E1854B /* CalculateDistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateDistanceViewController.m; sourceTree = "<group>"; };
+		39534D7D1D8FAF3E00E1854B /* ShowPrintImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPrintImageViewController.h; sourceTree = "<group>"; };
+		39534D7E1D8FAF3E00E1854B /* ShowPrintImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPrintImageViewController.m; sourceTree = "<group>"; };
+		39534D801D8FB89700E1854B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		39534D831D8FBC0800E1854B /* XHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHToast.h; sourceTree = "<group>"; };
+		39534D841D8FBC0800E1854B /* XHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHToast.m; sourceTree = "<group>"; };
+		39534D871D8FC46000E1854B /* SJAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAvatarBrowser.h; sourceTree = "<group>"; };
+		39534D881D8FC46000E1854B /* SJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAvatarBrowser.m; sourceTree = "<group>"; };
+		39534D8B1D8FC63000E1854B /* CutImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutImageViewController.h; sourceTree = "<group>"; };
+		39534D8C1D8FC63000E1854B /* CutImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutImageViewController.m; sourceTree = "<group>"; };
+		39534D8E1D8FC6F200E1854B /* CropImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropImageViewController.h; sourceTree = "<group>"; };
+		39534D8F1D8FC6F200E1854B /* CropImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropImageViewController.m; sourceTree = "<group>"; };
+		39534D911D8FC73900E1854B /* bundle_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bundle_2.jpg; sourceTree = "<group>"; };
+		39534D941D8FD1CB00E1854B /* SmallMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallMapView.h; sourceTree = "<group>"; };
+		39534D951D8FD1CB00E1854B /* SmallMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallMapView.m; sourceTree = "<group>"; };
+		39534D971D8FD1F400E1854B /* SmallImageShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallImageShowViewController.h; sourceTree = "<group>"; };
+		39534D981D8FD1F400E1854B /* SmallImageShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallImageShowViewController.m; sourceTree = "<group>"; };
+		39534D9A1D8FD39E00E1854B /* ToosPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToosPrefixHeader.pch; sourceTree = "<group>"; };
+		39534D9C1D8FDD3A00E1854B /* VIPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPhotoView.h; sourceTree = "<group>"; };
+		39534D9D1D8FDD3A00E1854B /* VIPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPhotoView.m; sourceTree = "<group>"; };
+		39534D9F1D8FDD8A00E1854B /* imageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageDetailViewController.h; sourceTree = "<group>"; };
+		39534DA01D8FDD8A00E1854B /* imageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageDetailViewController.m; sourceTree = "<group>"; };
 		5A29F2CB0D4E03AB42848174 /* Pods-iOSToolsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSToolsAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSToolsAppTests/Pods-iOSToolsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6A52BA7BE8F9D7F01CC47781 /* Pods-iOSToolsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSToolsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSToolsApp/Pods-iOSToolsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		877921FAD37E599C0FA0E1D2 /* libPods-iOSToolsAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSToolsAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +116,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39534D811D8FB89700E1854B /* AssetsLibrary.framework in Frameworks */,
+				39534D731D8F885100E1854B /* Foundation.framework in Frameworks */,
+				39534D711D8F884800E1854B /* UIKit.framework in Frameworks */,
 				68B98409BB3A148877B0CC95 /* libPods-iOSToolsApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +145,9 @@
 		05657724765985B4F8EBDD9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39534D801D8FB89700E1854B /* AssetsLibrary.framework */,
+				39534D721D8F885100E1854B /* Foundation.framework */,
+				39534D701D8F884800E1854B /* UIKit.framework */,
 				C90176C862F0DA6BC162899D /* libPods-iOSToolsApp.a */,
 				F6B9E689C46B93C07F51CC20 /* libPods-iOSToolsAppTests.a */,
 				877921FAD37E599C0FA0E1D2 /* libPods-iOSToolsAppUITests.a */,
@@ -150,6 +198,7 @@
 				39534D3A1D8F78AE00E1854B /* iOSToolsApp.xcdatamodeld */,
 				39534D421D8F78AE00E1854B /* Info.plist */,
 				39534D2F1D8F78AE00E1854B /* main.m */,
+				39534D9A1D8FD39E00E1854B /* ToosPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +242,11 @@
 		39534D661D8F796600E1854B /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				39534D9B1D8FDD2B00E1854B /* VIPhotoView */,
+				39534D931D8FD1BB00E1854B /* SmallMapView */,
+				39534D861D8FC45800E1854B /* SJAvatarBrowser */,
+				39534D821D8FBBFD00E1854B /* XHToast */,
+				39534D741D8F8AAF00E1854B /* UncaughtExceptionHandler */,
 			);
 			name = Vendors;
 			sourceTree = "<group>";
@@ -232,6 +286,9 @@
 			children = (
 				39534D341D8F78AE00E1854B /* HomeViewController.h */,
 				39534D351D8F78AE00E1854B /* HomeViewController.m */,
+				39534D781D8F965500E1854B /* CalculateDistanceVc */,
+				39534D7C1D8FAF0000E1854B /* showPrintImageVc */,
+				39534D8A1D8FC60B00E1854B /* CutImageViewController */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -248,9 +305,88 @@
 		39534D6D1D8F825F00E1854B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				39534D911D8FC73900E1854B /* bundle_2.jpg */,
 				39534D6E1D8F827400E1854B /* appLogo.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		39534D741D8F8AAF00E1854B /* UncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				39534D751D8F8ADD00E1854B /* UncaughtExceptionHandler.h */,
+				39534D761D8F8ADD00E1854B /* UncaughtExceptionHandler.m */,
+			);
+			name = UncaughtExceptionHandler;
+			sourceTree = "<group>";
+		};
+		39534D781D8F965500E1854B /* CalculateDistanceVc */ = {
+			isa = PBXGroup;
+			children = (
+				39534D791D8F967300E1854B /* CalculateDistanceViewController.h */,
+				39534D7A1D8F967300E1854B /* CalculateDistanceViewController.m */,
+			);
+			name = CalculateDistanceVc;
+			sourceTree = "<group>";
+		};
+		39534D7C1D8FAF0000E1854B /* showPrintImageVc */ = {
+			isa = PBXGroup;
+			children = (
+				39534D7D1D8FAF3E00E1854B /* ShowPrintImageViewController.h */,
+				39534D7E1D8FAF3E00E1854B /* ShowPrintImageViewController.m */,
+				39534D9F1D8FDD8A00E1854B /* imageDetailViewController.h */,
+				39534DA01D8FDD8A00E1854B /* imageDetailViewController.m */,
+			);
+			name = showPrintImageVc;
+			sourceTree = "<group>";
+		};
+		39534D821D8FBBFD00E1854B /* XHToast */ = {
+			isa = PBXGroup;
+			children = (
+				39534D831D8FBC0800E1854B /* XHToast.h */,
+				39534D841D8FBC0800E1854B /* XHToast.m */,
+			);
+			name = XHToast;
+			sourceTree = "<group>";
+		};
+		39534D861D8FC45800E1854B /* SJAvatarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				39534D871D8FC46000E1854B /* SJAvatarBrowser.h */,
+				39534D881D8FC46000E1854B /* SJAvatarBrowser.m */,
+			);
+			name = SJAvatarBrowser;
+			sourceTree = "<group>";
+		};
+		39534D8A1D8FC60B00E1854B /* CutImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				39534D8B1D8FC63000E1854B /* CutImageViewController.h */,
+				39534D8C1D8FC63000E1854B /* CutImageViewController.m */,
+				39534D8E1D8FC6F200E1854B /* CropImageViewController.h */,
+				39534D8F1D8FC6F200E1854B /* CropImageViewController.m */,
+			);
+			name = CutImageViewController;
+			sourceTree = "<group>";
+		};
+		39534D931D8FD1BB00E1854B /* SmallMapView */ = {
+			isa = PBXGroup;
+			children = (
+				39534D971D8FD1F400E1854B /* SmallImageShowViewController.h */,
+				39534D981D8FD1F400E1854B /* SmallImageShowViewController.m */,
+				39534D941D8FD1CB00E1854B /* SmallMapView.h */,
+				39534D951D8FD1CB00E1854B /* SmallMapView.m */,
+			);
+			name = SmallMapView;
+			sourceTree = "<group>";
+		};
+		39534D9B1D8FDD2B00E1854B /* VIPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				39534D9C1D8FDD3A00E1854B /* VIPhotoView.h */,
+				39534D9D1D8FDD3A00E1854B /* VIPhotoView.m */,
+			);
+			name = VIPhotoView;
 			sourceTree = "<group>";
 		};
 		524E445514C175C8AB7C1404 /* Pods */ = {
@@ -380,6 +516,7 @@
 				39534D411D8F78AE00E1854B /* LaunchScreen.storyboard in Resources */,
 				39534D3E1D8F78AE00E1854B /* Assets.xcassets in Resources */,
 				39534D6F1D8F827400E1854B /* appLogo.png in Resources */,
+				39534D921D8FC73900E1854B /* bundle_2.jpg in Resources */,
 				39534D391D8F78AE00E1854B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,10 +665,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39534D891D8FC46000E1854B /* SJAvatarBrowser.m in Sources */,
+				39534D7B1D8F967300E1854B /* CalculateDistanceViewController.m in Sources */,
+				39534D901D8FC6F200E1854B /* CropImageViewController.m in Sources */,
 				39534D361D8F78AE00E1854B /* HomeViewController.m in Sources */,
+				39534D9E1D8FDD3A00E1854B /* VIPhotoView.m in Sources */,
+				39534D771D8F8ADD00E1854B /* UncaughtExceptionHandler.m in Sources */,
 				39534D3C1D8F78AE00E1854B /* iOSToolsApp.xcdatamodeld in Sources */,
+				39534DA11D8FDD8A00E1854B /* imageDetailViewController.m in Sources */,
+				39534D991D8FD1F400E1854B /* SmallImageShowViewController.m in Sources */,
 				39534D331D8F78AE00E1854B /* AppDelegate.m in Sources */,
+				39534D961D8FD1CB00E1854B /* SmallMapView.m in Sources */,
+				39534D7F1D8FAF3E00E1854B /* ShowPrintImageViewController.m in Sources */,
 				39534D301D8F78AE00E1854B /* main.m in Sources */,
+				39534D851D8FBC0800E1854B /* XHToast.m in Sources */,
+				39534D8D1D8FC63000E1854B /* CutImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,12 +823,16 @@
 			baseConfigurationReference = 6A52BA7BE8F9D7F01CC47781 /* Pods-iOSToolsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xi'an Jointsky Software Holding Co., Ltd.";
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOSToolsApp/ToosPrefixHeader.pch;
 				INFOPLIST_FILE = iOSToolsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.iOSToolsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56468244-8cd8-452e-bd22-cc186e4e6112";
 			};
 			name = Debug;
 		};
@@ -689,12 +841,16 @@
 			baseConfigurationReference = B9231BA7A7013D13B84B77DC /* Pods-iOSToolsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xi'an Jointsky Software Holding Co., Ltd.";
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOSToolsApp/ToosPrefixHeader.pch;
 				INFOPLIST_FILE = iOSToolsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.iOSToolsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56468244-8cd8-452e-bd22-cc186e4e6112";
 			};
 			name = Release;
 		};
